@@ -5229,7 +5229,7 @@ msgstr "Noventa"
 #: frontend/src/utils/ui.ts:161 frontend/src/utils/ui.ts:609
 #: frontend/src/utils/ui.ts:667
 msgid "No"
-msgstr "Nº"
+msgstr "Não"
 
 #: frontend/src/pages/TemplateBuilder/TemplateBuilder.vue:562
 msgid "No display entries found"
@@ -7282,11 +7282,11 @@ msgstr "Termos da Fatura"
 
 #: frontend/src/pages/POS/POS.vue:584
 msgid "Sales Invoice {0} is Saved"
-msgstr "A fatura {0} foi guardada"
+msgstr "A Fatura {0} foi guardada"
 
 #: frontend/src/pages/POS/POS.vue:933
 msgid "Sales Invoice {0} is Submitted"
-msgstr "Registo de Venda Confirmado"
+msgstr "A Fatura {0} foi Submetida"
 
 #. Label of a Link in the Books Workspace
 #: frappe_books/frappe_books/workspace/books/books.json
@@ -8963,7 +8963,7 @@ msgstr "Despesas de viagem"
 #: frontend/reports/TrialBalance/TrialBalance.ts:13
 #: frontend/src/utils/sidebarConfig.ts:136
 msgid "Trial Balance"
-msgstr "Balanço do ensaio"
+msgstr "Balancete"
 
 #: frontend/src/pages/CommonForm/LinkedEntries.vue:32
 msgid "Try again"
@@ -9147,7 +9147,7 @@ msgstr "Usar filtros de lista"
 
 #: frontend/src/components/POS/NumericKeypad.vue:133
 msgid "Use digits, one decimal point, and an optional leading minus."
-msgstr "Utilize dígitos, uma vírgula decimal e um sinal de menos inicial opcional."
+msgstr "Utilize dígitos, um ponto decimal e um sinal de menos inicial opcional."
 
 #. Label of the used (Int) field in DocType 'Books Coupon Code'
 #. Label of the used (Int) field in DocType 'Books Loyalty Program'
