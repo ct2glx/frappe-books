@@ -67,7 +67,7 @@
     :trigger="triggerButton ? 'button' : 'input'"
     v-bind="
       triggerButton
-        ? { query: searchQuery, 'onUpdate:query': searchOptions }
+        ? { query: searchQuery, 'onUpdate:query': filterByQuery }
         : {}
     "
     class="min-w-0"
@@ -442,12 +442,12 @@ export default {
       }
     },
     /** Button mode's search only narrows the options; picking one sets the value. */
-    searchOptions(query) {
+    filterByQuery(query) {
       this.searchQuery = query;
       this.updateSuggestions(query);
     },
     onComboboxInput(event) {
-      // Button mode's search box only narrows the options (searchOptions).
+      // Button mode's search box only narrows the options (filterByQuery).
       if (
         this.isReadOnly ||
         this.triggerButton ||
